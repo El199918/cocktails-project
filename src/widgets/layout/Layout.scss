@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  gap: 24px;
+}
+
+.layout__menu {
+  flex-shrink: 0;
+}
+
+.layout__content {
+  flex-grow: 1;
+}

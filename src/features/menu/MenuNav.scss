@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-right: 1px solid #ddd;
+  min-width: 120px;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.menu__item--active {
+  color: #2196f3;
+}
